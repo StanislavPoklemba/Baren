@@ -102,10 +102,32 @@ export default function Reservation() {
     return { missing, errors }
   }
 
+  const dateToStr = (date) => {
+    if (!date) return ''
+    const y = date.getFullYear()
+    const m = String(date.getMonth() + 1).padStart(2, '0')
+    const d = String(date.getDate()).padStart(2, '0')
+    return `${y}-${m}-${d}`
+  }
+
   const handleDateChange = (date) => {
-    const str = date ? date.toISOString().split('T')[0] : ''
     setFieldErrors((prev) => ({ ...prev, date: false }))
-    setForm((prev) => ({ ...prev, date: str }))
+    setForm((prev) => ({ ...prev, date: dateToStr(date) }))
+  }
+
+  const handleCheckInChange = (date) => {
+    setFieldErrors((prev) => ({ ...prev, checkIn: false }))
+    setForm((prev) => {
+      const str = dateToStr(date)
+      const next = { ...prev, checkIn: str }
+      if (prev.checkOut && prev.checkOut <= str) next.checkOut = ''
+      return next
+    })
+  }
+
+  const handleCheckOutChange = (date) => {
+    setFieldErrors((prev) => ({ ...prev, checkOut: false }))
+    setForm((prev) => ({ ...prev, checkOut: dateToStr(date) }))
   }
 
   const handleChange = (e) => {
@@ -122,9 +144,6 @@ export default function Reservation() {
           next.kids    = newKids
           next.kidAges = prev.kidAges.slice(0, newKids)
         }
-      }
-      if (name === 'checkIn' && next.checkOut && next.checkOut <= value) {
-        next.checkOut = ''
       }
       return next
     })
@@ -339,24 +358,32 @@ export default function Reservation() {
                 {/* Check-in */}
                 <div className="flex flex-col">
                   <label htmlFor="checkIn" className={labelClass}>{c.checkIn}</label>
-                  <input
-                    id="checkIn" name="checkIn" type="date" required
-                    min={today}
-                    value={form.checkIn}
-                    onChange={handleChange}
+                  <DatePicker
+                    id="checkIn"
+                    selected={form.checkIn ? new Date(form.checkIn + 'T00:00:00') : null}
+                    onChange={handleCheckInChange}
+                    minDate={new Date(today + 'T00:00:00')}
+                    dateFormat="dd/MM/yyyy"
+                    placeholderText="dd/mm/yyyy"
+                    autoComplete="off"
                     className={fieldCls('checkIn')}
+                    wrapperClassName="w-full"
                   />
                 </div>
 
                 {/* Check-out */}
                 <div className="flex flex-col">
                   <label htmlFor="checkOut" className={labelClass}>{c.checkOut}</label>
-                  <input
-                    id="checkOut" name="checkOut" type="date" required
-                    min={minCheckOut}
-                    value={form.checkOut}
-                    onChange={handleChange}
+                  <DatePicker
+                    id="checkOut"
+                    selected={form.checkOut ? new Date(form.checkOut + 'T00:00:00') : null}
+                    onChange={handleCheckOutChange}
+                    minDate={new Date(minCheckOut + 'T00:00:00')}
+                    dateFormat="dd/MM/yyyy"
+                    placeholderText="dd/mm/yyyy"
+                    autoComplete="off"
                     className={fieldCls('checkOut')}
+                    wrapperClassName="w-full"
                   />
                 </div>
 

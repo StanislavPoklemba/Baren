@@ -35,7 +35,15 @@
       "Bash(node record-demo.js)",
       "Bash(node -e \"const w = require\\('./src/data/wines.json'\\); Object.keys\\(w\\).forEach\\(k => console.log\\(k, w[k].length, 'items', w[k][0] ? JSON.stringify\\(w[k][0]\\).slice\\(0,80\\) : ''\\)\\)\")",
       "Bash(curl -s -X POST http://localhost:3001/api/hotel -H \"Content-Type: application/json\" -d \"{\\\\\"roomType\\\\\":\\\\\"suite\\\\\",\\\\\"guestName\\\\\":\\\\\"Stano Poklemba\\\\\",\\\\\"guestEmail\\\\\":\\\\\"stanopoklemba@gmail.com\\\\\",\\\\\"checkIn\\\\\":\\\\\"2026-06-01\\\\\",\\\\\"checkOut\\\\\":\\\\\"2026-06-05\\\\\",\\\\\"numGuests\\\\\":4,\\\\\"hasInfant\\\\\":false,\\\\\"specialRequests\\\\\":\\\\\"test\\\\\"}\")",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(Remove-Item -Recurse -Force \"C:\\\\Users\\\\stano\\\\Desktop\\\\baren\\\\demo\")",
+      "Bash(Remove-Item -Force \"C:\\\\Users\\\\stano\\\\Desktop\\\\baren\\\\src\\\\components\\\\Gallery.jsx\")",
+      "Bash(Remove-Item -Force \"C:\\\\Users\\\\stano\\\\Desktop\\\\baren\\\\src\\\\components\\\\Philosophy.jsx\")",
+      "Bash(Remove-Item -Force \"C:\\\\Users\\\\stano\\\\Desktop\\\\baren\\\\src\\\\components\\\\ALaCarte.jsx\")",
+      "Bash(Remove-Item -Force \"C:\\\\Users\\\\stano\\\\Desktop\\\\baren\\\\src\\\\components\\\\TastingMenu.jsx\")"
     ]
   }
 }
