@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__computer",
+      "mcp__Claude_in_Chrome__javascript_tool",
+      "mcp__Claude_in_Chrome__browser_batch",
+      "WebFetch(domain:www.baeren-andermatt.ch)",
+      "mcp__Claude_in_Chrome__read_page",
+      "mcp__Claude_in_Chrome__get_page_text",
+      "mcp__Claude_in_Chrome__tabs_create_mcp",
+      "WebFetch(domain:www.gaultmillau.ch)",
+      "WebFetch(domain:e309faf5-4a36-413f-972e-b7c8dacc1229.filesusr.com)",
+      "WebFetch(domain:www.booking.com)",
+      "Bash(python -c \"import pdfplumber; pdf = pdfplumber.open\\(r'C:\\\\Users\\\\stano\\\\.claude\\\\projects\\\\C--Users-stano-Desktop-baren\\\\555c4510-cd9e-4323-a62d-bd9e6c500ceb\\\\tool-results\\\\webfetch-1778255664607-h97jod.pdf'\\); print\\(f'Pages: {len\\(pdf.pages\\)}'\\); [print\\(f'--- PAGE {i+1} ---\\\\n{p.extract_text\\(\\)}'\\) for i, p in enumerate\\(pdf.pages\\)]; pdf.close\\(\\)\")",
+      "Bash(pip install *)",
+      "WebFetch(domain:reservations.roomraccoon.com)",
+      "WebFetch(domain:app.roomraccoon.com)",
+      "mcp__Claude_in_Chrome__find",
+      "WebFetch(domain:booking.roomraccoon.ch)",
+      "Bash(npm install *)",
+      "Bash(npx vite *)",
+      "mcp__Claude_in_Chrome__list_connected_browsers",
+      "mcp__Claude_in_Chrome__select_browser",
+      "mcp__Claude_in_Chrome__read_console_messages",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\stano\\\\Desktop\\\\baren\" -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\stano\\\\Desktop\\\\baren\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "Bash(curl -s http://localhost:3001/api/health)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); deps={**d.get\\('dependencies',{}\\), **d.get\\('devDependencies',{}\\)}; print\\('playwright' in str\\(deps\\).lower\\(\\)\\)\")",
+      "Bash(npx playwright *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(node record-demo.js)",
+      "Bash(node -e \"const w = require\\('./src/data/wines.json'\\); Object.keys\\(w\\).forEach\\(k => console.log\\(k, w[k].length, 'items', w[k][0] ? JSON.stringify\\(w[k][0]\\).slice\\(0,80\\) : ''\\)\\)\")",
+      "Bash(curl -s -X POST http://localhost:3001/api/hotel -H \"Content-Type: application/json\" -d \"{\\\\\"roomType\\\\\":\\\\\"suite\\\\\",\\\\\"guestName\\\\\":\\\\\"Stano Poklemba\\\\\",\\\\\"guestEmail\\\\\":\\\\\"stanopoklemba@gmail.com\\\\\",\\\\\"checkIn\\\\\":\\\\\"2026-06-01\\\\\",\\\\\"checkOut\\\\\":\\\\\"2026-06-05\\\\\",\\\\\"numGuests\\\\\":4,\\\\\"hasInfant\\\\\":false,\\\\\"specialRequests\\\\\":\\\\\"test\\\\\"}\")",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

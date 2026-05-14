@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   GLOBÁLNE NASTAVENIA
+   ============================================================ */
+
+html {
+  /* Plynulé scrollovanie pri kliknutí na #anchor odkazy v navbare */
+  scroll-behavior: smooth;
+  /* Posun pre fixný navbar – aby sekcie neboli skryté pod ním */
+  scroll-padding-top: 80px;
+}
+
+body {
+  margin: 0;
+  background-color: #FAF7F2; /* alabaster */
+  color: #2A2A28;            /* charcoal */
+  font-family: 'Montserrat', system-ui, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Zabezpečí, že padding/border sa rátajú dnu do width/height */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Vlastný scrollbar – jemný, luxusný */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9BE8E;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A572;
+}
+
+/* Selekcia textu vo farbe gold */
+::selection {
+  background: #D9BE8E;
+  color: #2A2A28;
+}
+
+/* ============================================================
+   POMOCNÉ KOMPONENTY (Tailwind @layer)
+   ============================================================ */
+
+/* ============================================================
+   REACT-DATEPICKER OVERRIDES
+   ============================================================ */
+
+.react-datepicker-wrapper { width: 100%; }
+.react-datepicker-popper  { z-index: 50; }
+
+.react-datepicker {
+  font-family: 'Montserrat', system-ui, sans-serif;
+  background-color: #F5F2EC;
+  border: 1px solid #E5DDD0;
+  border-radius: 0;
+  box-shadow: 0 8px 32px rgba(42, 42, 40, 0.1);
+}
+
+.react-datepicker__triangle { display: none; }
+
+.react-datepicker__header {
+  background-color: #F5F2EC;
+  border-bottom: 1px solid #E5DDD0;
+  padding: 14px 0 8px;
+}
+
+.react-datepicker__current-month {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #2A2A28;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.react-datepicker__navigation { top: 14px; }
+.react-datepicker__navigation-icon::before {
+  border-color: #A8895A;
+  border-width: 2px 2px 0 0;
+  width: 7px;
+  height: 7px;
+}
+.react-datepicker__navigation:hover .react-datepicker__navigation-icon::before {
+  border-color: #C5A572;
+}
+
+.react-datepicker__day-name {
+  color: #706B65;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  width: 2rem;
+  line-height: 2rem;
+  margin: 0.1rem;
+}
+
+.react-datepicker__month { margin: 0.4rem 0.6rem 0.6rem; }
+
+.react-datepicker__day {
+  color: #2A2A28;
+  width: 2rem;
+  line-height: 2rem;
+  margin: 0.1rem;
+  border-radius: 0;
+  font-size: 0.78rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.react-datepicker__day:hover:not(.react-datepicker__day--disabled):not(.react-datepicker__day--selected) {
+  background-color: #E5DDD0;
+  border-radius: 0;
+  color: #2A2A28;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--selected:hover {
+  background-color: #C5A572 !important;
+  color: #FAF7F2 !important;
+  border-radius: 0;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #D9BE8E;
+  border-radius: 0;
+  color: #2A2A28;
+}
+
+.react-datepicker__day--today:not(.react-datepicker__day--selected) {
+  background-color: transparent;
+  outline: 1px solid #C5A572;
+  font-weight: 600;
+  border-radius: 0;
+}
+
+.react-datepicker__day--disabled {
+  color: #B8B2AB !important;
+  cursor: not-allowed !important;
+  opacity: 1;
+}
+
+.react-datepicker__day--outside-month {
+  color: #B8B2AB;
+}
+
+@layer components {
+  /* Tenká zlatá deliaca čiara */
+  .gold-divider {
+    @apply mx-auto w-16 h-px bg-gold;
+  }
+
+  /* Drobný "kapitálkový" nadpis nad veľkými titulmi */
+  .eyebrow {
+    @apply text-xs uppercase tracking-wide-4 text-charcoal font-semibold;
+  }
+
+  /* Veľký pätkový nadpis sekcie */
+  .section-title {
+    @apply font-serif text-4xl md:text-5xl lg:text-6xl text-charcoal font-normal;
+  }
+}

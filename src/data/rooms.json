@@ -1,0 +1,130 @@
+[
+  {
+    "id": "standard",
+    "nameEn": "Standard Double Room",
+    "nameDe": "Standard Doppelzimmer",
+    "nameFr": "Chambre Double Standard",
+    "nameIt": "Camera Doppia Standard",
+    "size": "15",
+    "count": 2,
+    "beds": {
+      "en": "1 Double Bed",
+      "de": "1 Doppelbett",
+      "fr": "1 Lit Double",
+      "it": "1 Letto Matrimoniale"
+    },
+    "note": {
+      "en": "Available twice",
+      "de": "2× verfügbar",
+      "fr": "Disponible deux fois",
+      "it": "Disponibile due volte"
+    },
+    "descEn": "Bright room with solid wooden furniture, a TV with cable channels and views of the surrounding mountains.",
+    "descDe": "Helles Zimmer mit massiven Holzmöbeln, einem TV mit Kabelkanälen und Blick auf die umliegenden Berge.",
+    "descFr": "Chambre lumineuse avec des meubles en bois massif, une TV avec chaînes câblées et vue sur les montagnes environnantes.",
+    "descIt": "Camera luminosa con mobili in legno massiccio, TV con canali via cavo e vista sulle montagne circostanti.",
+    "features": {
+      "en": ["Mountain & city view", "Private bathroom", "Flat-screen TV", "Coffee maker", "Safe", "Desk"],
+      "de": ["Berg- & Stadtblick", "Eigenes Badezimmer", "Flachbild-TV", "Kaffeemaschine", "Safe", "Schreibtisch"],
+      "fr": ["Vue montagne et ville", "Salle de bain privée", "TV à écran plat", "Machine à café", "Coffre-fort", "Bureau"],
+      "it": ["Vista montagna e città", "Bagno privato", "TV a schermo piatto", "Macchina del caffè", "Cassaforte", "Scrivania"]
+    },
+    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/62850988.jpg?k=7a38fe5e0a1577e82524c33bd31865db934b4e99bfea5eacde8072dda96a6c3a&o="
+  },
+  {
+    "id": "superior",
+    "nameEn": "Superior Double Room",
+    "nameDe": "Superior Doppelzimmer",
+    "nameFr": "Chambre Double Supérieure",
+    "nameIt": "Camera Doppia Superior",
+    "size": "18",
+    "count": 1,
+    "beds": {
+      "en": "1 Double Bed",
+      "de": "1 Doppelbett",
+      "fr": "1 Lit Double",
+      "it": "1 Letto Matrimoniale"
+    },
+    "note": {
+      "en": "Enhanced comfort",
+      "de": "Gehobener Komfort",
+      "fr": "Confort Amélioré",
+      "it": "Comfort Superiore"
+    },
+    "descEn": "This double room includes a private bathroom with a shower and a hairdryer. Features a tea and coffee maker, a seating area, a wardrobe and a flat-screen TV with cable channels — a cozy retreat where warm alpine character and thoughtful details make you feel instantly at home.",
+    "descDe": "Das Zimmer verfügt über ein eigenes Bad mit Dusche und Föhn sowie Tee- und Kaffeemaschine, Sitzbereich, Kleiderschrank und Flachbild-TV mit Kabelkanälen — ein gemütlicher Rückzugsort, in dem alpines Flair und durchdachte Details Sie sofort heimisch fühlen lassen.",
+    "descFr": "Cette chambre double comprend une salle de bain privée avec douche et sèche-cheveux. Dispose d'une machine à thé et café, d'un coin salon, d'une armoire et d'une TV à écran plat avec chaînes câblées — un refuge chaleureux où le charme alpin et les détails soignés vous mettent instantanément à l'aise.",
+    "descIt": "Questa camera doppia include un bagno privato con doccia e asciugacapelli. Dispone di macchina per tè e caffè, area salotto, armadio e TV a schermo piatto con canali via cavo — un rifugio accogliente dove il carattere alpino e i dettagli curati vi faranno sentire subito a casa.",
+    "features": {
+      "en": ["Mountain & city view", "Private bathroom", "Seating area", "Tea & coffee maker", "Flat-screen TV", "Safe"],
+      "de": ["Berg- & Stadtblick", "Eigenes Badezimmer", "Sitzbereich", "Tee- & Kaffeemaschine", "Flachbild-TV", "Safe"],
+      "fr": ["Vue montagne et ville", "Salle de bain privée", "Coin salon", "Machine à thé et café", "TV à écran plat", "Coffre-fort"],
+      "it": ["Vista montagna e città", "Bagno privato", "Area salotto", "Macchina per tè e caffè", "TV a schermo piatto", "Cassaforte"]
+    },
+    "image": "https://static.wixstatic.com/media/c1734e_40805ca08fbc4309ad74128667085f95~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_90,enc_avif,quality_auto/photo.jpg"
+  },
+  {
+    "id": "deluxe",
+    "nameEn": "Deluxe Double Room",
+    "nameDe": "Deluxe Doppelzimmer",
+    "nameFr": "Chambre Double Deluxe",
+    "nameIt": "Camera Doppia Deluxe",
+    "size": "20",
+    "count": 1,
+    "beds": {
+      "en": "1 Double Bed + Bunk Beds · Sleeps up to 4",
+      "de": "1 Doppelbett + Etagenbetten · bis 4 Personen",
+      "fr": "1 Lit Double + Lits Superposés · Jusqu'à 4 Personnes",
+      "it": "1 Letto Matrimoniale + Letti a Castello · Fino a 4 Persone"
+    },
+    "note": {
+      "en": "Ideal for families",
+      "de": "Ideal für Familien",
+      "fr": "Idéal pour les Familles",
+      "it": "Ideale per le Famiglie"
+    },
+    "descEn": "Bright room with solid wooden furniture, a TV with cable channels and views of the surrounding mountains. Features a sofa and accommodates up to 4 guests.",
+    "descDe": "Helles Zimmer mit massiven Holzmöbeln, einem TV mit Kabelkanälen und Bergblick. Mit Sofa und Platz für bis zu 4 Gäste.",
+    "descFr": "Chambre lumineuse avec des meubles en bois massif, une TV avec chaînes câblées et vue sur les montagnes. Dispose d'un canapé et peut accueillir jusqu'à 4 hôtes.",
+    "descIt": "Camera luminosa con mobili in legno massiccio, TV con canali via cavo e vista sulle montagne. Dispone di divano e può ospitare fino a 4 ospiti.",
+    "features": {
+      "en": ["Mountain & city view", "Private bathroom", "Bunk beds", "Sofa", "Flat-screen TV", "Coffee maker"],
+      "de": ["Berg- & Stadtblick", "Eigenes Badezimmer", "Etagenbetten", "Sofa", "Flachbild-TV", "Kaffeemaschine"],
+      "fr": ["Vue montagne et ville", "Salle de bain privée", "Lits superposés", "Canapé", "TV à écran plat", "Machine à café"],
+      "it": ["Vista montagna e città", "Bagno privato", "Letti a castello", "Divano", "TV a schermo piatto", "Macchina del caffè"]
+    },
+    "image": "https://static.wixstatic.com/media/c1734e_b35e0969b7dc4b2f86b05782e412e081~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_90,enc_avif,quality_auto/photo.jpg"
+  },
+  {
+    "id": "suite",
+    "nameEn": "Junior Suite",
+    "nameDe": "Junior Suite",
+    "nameFr": "Junior Suite",
+    "nameIt": "Junior Suite",
+    "size": "40",
+    "count": 1,
+    "beds": {
+      "en": "1 Double Bed + Sofa Bed",
+      "de": "1 Doppelbett + Schlafsofa",
+      "fr": "1 Lit Double + Canapé-Lit",
+      "it": "1 Letto Matrimoniale + Divano Letto"
+    },
+    "note": {
+      "en": "Most spacious · Third floor",
+      "de": "Geräumigstes Zimmer · Drittes Stockwerk",
+      "fr": "La Plus Spacieuse · Troisième Étage",
+      "it": "La più Spaziosa · Terzo Piano"
+    },
+    "descEn": "This suite includes a private bathroom with a shower and a hairdryer. Features a flat-screen TV with cable channels, a tea and coffee maker, a seating area and a wardrobe — a warm and inviting space designed to make you feel truly at ease from the moment you arrive.",
+    "descDe": "Die Suite verfügt über ein eigenes Bad mit Dusche und Föhn sowie Flachbild-TV mit Kabelkanälen, Tee- und Kaffeemaschine, Sitzbereich und Kleiderschrank — ein einladender Rückzugsort, der Sie vom ersten Moment an spüren lässt, dass Sie genau richtig sind.",
+    "descFr": "Cette suite comprend une salle de bain privée avec douche et sèche-cheveux. Dispose d'une TV à écran plat avec chaînes câblées, d'une machine à thé et café, d'un coin salon et d'une armoire — un espace chaleureux et accueillant pensé pour vous faire sentir pleinement à l'aise dès votre arrivée.",
+    "descIt": "Questa suite include un bagno privato con doccia e asciugacapelli. Dispone di TV a schermo piatto con canali via cavo, macchina per tè e caffè, area salotto e armadio — uno spazio caldo e accogliente pensato per farvi sentire davvero a vostro agio fin dal primo momento.",
+    "features": {
+      "en": ["Mountain & city view", "Private bathroom", "Seating area", "Tea & coffee maker", "Flat-screen TV", "Sofa bed"],
+      "de": ["Berg- & Stadtblick", "Eigenes Badezimmer", "Sitzbereich", "Tee- & Kaffeemaschine", "Flachbild-TV", "Schlafsofa"],
+      "fr": ["Vue montagne et ville", "Salle de bain privée", "Coin salon", "Machine à thé et café", "TV à écran plat", "Canapé-lit"],
+      "it": ["Vista montagna e città", "Bagno privato", "Area salotto", "Macchina per tè e caffè", "TV a schermo piatto", "Divano letto"]
+    },
+    "image": "https://static.wixstatic.com/media/c1734e_749fb3370ef84778be104bbfcff169e3~mv2.jpg/v1/fill/w_1400,h_900,al_c,q_90,enc_avif,quality_auto/photo.jpg"
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "tastingMenus": [
+    {
+      "id": "canton-uri",
+      "title": "Menu Degustazione Canton Uri",
+      "description": {
+        "en": "For this winter we have decided to dedicate our degustation menu to the region of Canton Uri. By using various locally sourced produce as well as working together with local suppliers and farmers we want to highlight the quality & diversity of the local terroir.",
+        "de": "Für diesen Winter haben wir beschlossen, unser Degustationsmenü der Region Kanton Uri zu widmen. Durch die Verwendung von lokal bezogenen Produkten und die Zusammenarbeit mit lokalen Lieferanten und Bauern möchten wir die Qualität und Vielfalt des lokalen Terroirs hervorheben.",
+        "fr": "Pour cet hiver, nous avons décidé de dédier notre menu dégustation à la région du Canton Uri. En utilisant des produits locaux et en collaborant avec des fournisseurs et agriculteurs locaux, nous souhaitons mettre en valeur la qualité et la diversité du terroir local.",
+        "it": "Per questo inverno abbiamo deciso di dedicare il nostro menu degustazione alla regione del Canton Uri. Utilizzando prodotti locali e collaborando con fornitori e agricoltori locali, vogliamo mettere in risalto la qualità e la diversità del terroir locale."
+      },
+      "courses": [
+        { "en": "Veal Tatar | Pumpkin | Mustard",                          "de": "Kalbstatar | Kürbis | Senf",                                     "fr": "Tartare de Veau | Courge | Moutarde",                          "it": "Tartare di Vitello | Zucca | Senape" },
+        { "en": "Gotthard Mushrooms | Buffalo Cheese | Bresaola",          "de": "Gotthard Pilze | Büffelmozzarella | Bresaola",                  "fr": "Champignons du Gotthard | Fromage de Bufflonne | Bresaola",    "it": "Funghi del Gotthard | Formaggio di Bufala | Bresaola" },
+        { "en": "Andermatt Yak | Parmesan | Leek",                         "de": "Andermatt Yak | Parmesan | Lauch",                              "fr": "Yak d'Andermatt | Parmesan | Poireau",                        "it": "Yak di Andermatt | Parmigiano | Porro" },
+        { "en": "Tagliolini | Andermatt Wagyu",                            "de": "Tagliolini | Andermatt Wagyu",                                  "fr": "Tagliolini | Andermatt Wagyu",                                "it": "Tagliolini | Andermatt Wagyu" },
+        { "en": "Canton Uri Deer  or  Andermatt Wagyu Entrecôte",          "de": "Kanton Uri Hirsch oder Andermatt Wagyu Entrecôte",              "fr": "Cerf du Canton Uri ou Entrecôte de Wagyu d'Andermatt",        "it": "Cervo del Canton Uri o Entrecôte di Wagyu di Andermatt" },
+        { "en": "Brioche | Honey | Andermatt Blueberries | Cream",         "de": "Brioche | Honig | Andermatt Heidelbeeren | Sahne",              "fr": "Brioche | Miel | Myrtilles d'Andermatt | Crème",              "it": "Brioche | Miele | Mirtilli di Andermatt | Panna" }
+      ],
+      "prices": [
+        { "label": { "en": "6 Courses", "de": "6 Gänge", "fr": "6 Plats", "it": "6 Portate" }, "price": "145" },
+        { "label": { "en": "6 Courses with Wagyu Entrecôte", "de": "6 Gänge mit Wagyu Entrecôte", "fr": "6 Plats avec Entrecôte de Wagyu", "it": "6 Portate con Entrecôte di Wagyu" }, "price": "185" },
+        { "label": { "en": "Wine Pairing — 4 Glasses", "de": "Weinbegleitung — 4 Gläser", "fr": "Accord Mets-Vins — 4 Verres", "it": "Abbinamento Vini — 4 Calici" }, "price": "55" }
+      ]
+    },
+    {
+      "id": "sorpresa",
+      "title": "Menu Sorpresa dello Chef",
+      "description": null,
+      "courses": [],
+      "prices": [
+        { "label": { "en": "4-Course Menu", "de": "4-Gänge-Menü", "fr": "Menu 4 Plats", "it": "Menu 4 Portate" }, "price": "110" }
+      ]
+    },
+    {
+      "id": "mexico",
+      "title": "Menu Degustazione Mexico",
+      "description": {
+        "en": "Our head chef Daniel Schiavetta loves to travel the world and to discover new dishes and flavors. The following degustation menu is inspired by his travels through Mexico this fall. Interesting spices & flavor combinations await you throughout this delicious culinary experience.",
+        "de": "Unser Küchenchef Daniel Schiavetta liebt es, die Welt zu bereisen und neue Gerichte und Aromen zu entdecken. Das folgende Degustationsmenü ist von seinen Reisen durch Mexiko in diesem Herbst inspiriert. Interessante Gewürze und Geschmackskombinationen erwarten Sie in diesem köstlichen kulinarischen Erlebnis.",
+        "fr": "Notre chef de cuisine Daniel Schiavetta aime voyager à travers le monde et découvrir de nouveaux plats et saveurs. Le menu dégustation suivant est inspiré de ses voyages au Mexique cet automne. Des épices et combinaisons de saveurs intéressantes vous attendent tout au long de cette délicieuse expérience culinaire.",
+        "it": "Il nostro chef di cucina Daniel Schiavetta ama viaggiare per il mondo e scoprire nuovi piatti e sapori. Il seguente menu degustazione è ispirato ai suoi viaggi in Messico questo autunno. Spezie interessanti e combinazioni di sapori vi aspettano durante questa deliziosa esperienza culinaria."
+      },
+      "courses": [
+        { "en": "Seabass Ceviche",          "de": "Wolfsbarsch-Ceviche",           "fr": "Ceviche de Bar",              "it": "Ceviche di Branzino" },
+        { "en": "Fish «Hot Dog»",            "de": "Fisch «Hot Dog»",               "fr": "«Hot Dog» de Poisson",        "it": "«Hot Dog» di Pesce" },
+        { "en": "Scallops | Tomato",         "de": "Jakobsmuscheln | Tomate",       "fr": "Noix de Saint-Jacques | Tomate", "it": "Capesante | Pomodoro" },
+        { "en": "Tacos",                     "de": "Tacos",                         "fr": "Tacos",                       "it": "Tacos" },
+        { "en": "Lobster",                   "de": "Hummer",                        "fr": "Homard",                      "it": "Aragosta" },
+        { "en": "Chocolate | Passionfruit",  "de": "Schokolade | Passionsfrucht",   "fr": "Chocolat | Fruit de la Passion", "it": "Cioccolato | Frutto della Passione" }
+      ],
+      "prices": [
+        { "label": { "en": "6 Courses", "de": "6 Gänge", "fr": "6 Plats", "it": "6 Portate" }, "price": "155" },
+        { "label": { "en": "Wine & Tequila Pairing — 4 Glasses", "de": "Wein- & Tequila-Begleitung — 4 Gläser", "fr": "Accord Vins & Tequila — 4 Verres", "it": "Abbinamento Vini & Tequila — 4 Calici" }, "price": "55" }
+      ]
+    }
+  ],
+  "kidsMenu": {
+    "items": [
+      { "id": "k1", "name": { "en": "Classical Pasta Bolognese",                        "de": "Klassische Pasta Bolognese",                     "fr": "Pâtes Bolognaise Classiques",                    "it": "Pasta Bolognese Classica" },                   "price": "15" },
+      { "id": "k2", "name": { "en": "Pasta Pomodoro",                                   "de": "Pasta Pomodoro",                                  "fr": "Pasta Pomodoro",                                 "it": "Pasta Pomodoro" },                             "price": "13" },
+      { "id": "k3", "name": { "en": "Homemade Chicken Nuggets & Oven Potatoes",         "de": "Hausgemachte Chicken Nuggets & Ofenkartoffeln",   "fr": "Nuggets de Poulet Maison & Pommes de Terre au Four", "it": "Nuggets di Pollo Fatti in Casa & Patate al Forno" }, "price": "18" }
+    ]
+  },
+  "alaCarte": {
+    "starters": {
+      "title": "Antipasti",
+      "items": [
+        { "id": "a1", "name": { "en": "Gnocchi | Potato | Ricotta | Truffle",                        "de": "Gnocchi | Kartoffel | Ricotta | Trüffel",                     "fr": "Gnocchi | Pomme de Terre | Ricotta | Truffe",              "it": "Gnocchi | Patata | Ricotta | Tartufo" },                "price": "19" },
+        { "id": "a2", "name": { "en": "Parmesan | Onions | Balsamico | Herbs | Algae",               "de": "Parmesan | Zwiebeln | Balsamico | Kräuter | Algen",           "fr": "Parmesan | Oignons | Balsamique | Herbes | Algues",        "it": "Parmigiano | Cipolle | Balsamico | Erbe | Alghe" },     "price": "19" },
+        { "id": "a3", "name": { "en": "Swiss Alpine Salmon | Beetroot | Ponzu | Salmon Roe",         "de": "Schweizer Alpenlachs | Rote Bete | Ponzu | Lachsrogen",       "fr": "Saumon des Alpes Suisses | Betterave | Ponzu | Œufs de Saumon", "it": "Salmone delle Alpi Svizzere | Barbabietola | Ponzu | Uova di Salmone" }, "price": "22" },
+        { "id": "a4", "name": { "en": "Pork Belly | Beer | Apple | Black Salsify",                  "de": "Schweinebauch | Bier | Apfel | Schwarzwurzel",                "fr": "Poitrine de Porc | Bière | Pomme | Salsifis Noir",         "it": "Pancetta di Maiale | Birra | Mela | Scorzonera" },      "price": "22" },
+        { "id": "a5", "name": { "en": "Local Cheese Platter",                                        "de": "Lokale Käseplatte",                                           "fr": "Plateau de Fromages Locaux",                              "it": "Piatto di Formaggi Locali" },                          "price": "22" }
+      ]
+    },
+    "primi": {
+      "title": "Primi",
+      "items": [
+        { "id": "p1", "name": { "en": "Bucatini | Buffalo Cheese | Ricotta | Leek",                  "de": "Bucatini | Büffelmozzarella | Ricotta | Lauch",               "fr": "Bucatini | Fromage de Bufflonne | Ricotta | Poireau",      "it": "Bucatini | Mozzarella di Bufala | Ricotta | Porro" },   "price": "18 / 24" },
+        { "id": "p2", "name": { "en": "Pumpkin Ravioli «Nonna Mirella» | Amaretto | Parmesan",       "de": "Kürbis-Ravioli «Nonna Mirella» | Amaretto | Parmesan",        "fr": "Ravioli au Potiron «Nonna Mirella» | Amaretto | Parmesan", "it": "Ravioli di Zucca «Nonna Mirella» | Amaretto | Parmigiano" }, "price": "19 / 26" },
+        { "id": "p3", "name": { "en": "Deer Cannelloni | Chestnut | Lovage | Alpcheese",             "de": "Hirsch-Cannelloni | Kastanie | Liebstöckel | Alpkäse",        "fr": "Cannelloni de Cerf | Châtaigne | Livèche | Fromage d'Alpage", "it": "Cannelloni di Cervo | Castagna | Levistico | Formaggio d'Alpe" }, "price": "19 / 26" },
+        { "id": "p4", "name": { "en": "Risotto Aglio e Olio | Peperoncino | Shrimp | Lemon",         "de": "Risotto Aglio e Olio | Peperoncino | Garnelen | Zitrone",     "fr": "Risotto Aglio e Olio | Peperoncino | Crevettes | Citron",  "it": "Risotto Aglio e Olio | Peperoncino | Gamberi | Limone" }, "price": "30" }
+      ]
+    },
+    "secondi": {
+      "title": "Secondi",
+      "items": [
+        { "id": "s1", "name": { "en": "Celeriac | Gotthard Mushrooms",                               "de": "Sellerie | Gotthard Pilze",                                   "fr": "Céleri-Rave | Champignons du Gotthard",                    "it": "Sedano Rapa | Funghi del Gotthard" },                  "price": "39" },
+        { "id": "s2", "name": { "en": "Cornfed Chicken | Corn | Mustard | Orange",                   "de": "Maishähnchen | Mais | Senf | Orange",                         "fr": "Poulet de Maïs | Maïs | Moutarde | Orange",               "it": "Pollo al Mais | Mais | Senape | Arancia" },             "price": "49" },
+        { "id": "s3", "name": { "en": "Halibut | Pumpkin | Butter | Wild Garlic",                    "de": "Heilbutt | Kürbis | Butter | Bärlauch",                       "fr": "Flétan | Courge | Beurre | Ail des Ours",                  "it": "Halibut | Zucca | Burro | Aglio Orsino" },              "price": "49" },
+        { "id": "s4", "name": { "en": "Veal Entrecôte & Sweetbread | Savoy Cabbage | Potato",        "de": "Kalbsentrecôte & Kalbsbries | Wirsing | Kartoffel",           "fr": "Entrecôte de Veau & Ris de Veau | Chou de Savoie | Pomme de Terre", "it": "Entrecôte di Vitello & Animella | Verza | Patata" }, "price": "65" }
+      ]
+    },
+    "dolci": {
+      "title": "Dolci",
+      "items": [
+        { "id": "d1", "name": { "en": "Chocolate | Passionfruit",        "de": "Schokolade | Passionsfrucht",      "fr": "Chocolat | Fruit de la Passion",    "it": "Cioccolato | Frutto della Passione" }, "price": "15" },
+        { "id": "d2", "name": { "en": "Andermatt Blueberries | Yoghurt", "de": "Andermatt Heidelbeeren | Joghurt", "fr": "Myrtilles d'Andermatt | Yaourt",    "it": "Mirtilli di Andermatt | Yogurt" },     "price": "15" },
+        { "id": "d3", "name": { "en": "Matcha Tea | Apple",              "de": "Matcha-Tee | Apfel",               "fr": "Thé Matcha | Pomme",                "it": "Tè Matcha | Mela" },                   "price": "15" },
+        { "id": "d4", "name": { "en": "Ice Cream | Zabaione",            "de": "Eis | Zabaione",                   "fr": "Glace | Zabaione",                  "it": "Gelato | Zabaione" },                  "price": "15" }
+      ]
+    }
+  }
+}
