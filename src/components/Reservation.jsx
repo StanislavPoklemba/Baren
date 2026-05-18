@@ -192,10 +192,14 @@ export default function Reservation() {
     try {
       let response
 
+      const controller = new AbortController()
+      const timeoutId  = setTimeout(() => controller.abort(), 60000)
+
       if (form.type === 'table') {
         response = await fetch(`${API_URL}/api/restaurant`, {
           method:  'POST',
           headers: { 'Content-Type': 'application/json' },
+          signal:  controller.signal,
           body: JSON.stringify({
             guestName:       form.name,
             guestEmail:      form.email,
@@ -209,6 +213,7 @@ export default function Reservation() {
         response = await fetch(`${API_URL}/api/hotel`, {
           method:  'POST',
           headers: { 'Content-Type': 'application/json' },
+          signal:  controller.signal,
           body: JSON.stringify({
             roomType:        form.roomType,
             guestName:       form.name,
@@ -225,6 +230,7 @@ export default function Reservation() {
         })
       }
 
+      clearTimeout(timeoutId)
       const data = await response.json()
       if (!response.ok) {
         setError(data.error ?? c.errorGeneral)
