@@ -16,19 +16,15 @@ const CHEF_PHOTO =
 function MenuItemRow({ name, price, isLast }) {
   return (
     <>
-      <div className="flex items-baseline gap-4 py-3">
-        <span className="font-serif text-lg text-charcoal flex-1 leading-snug">
+      <div className="flex items-baseline justify-between gap-4 py-3">
+        <span className="font-serif text-lg text-charcoal leading-snug">
           {name}
         </span>
-        <span
-          className="flex-shrink-0 border-b border-dotted border-line/80 translate-y-[-5px] flex-1"
-          aria-hidden="true"
-        />
         <span className="font-serif text-lg text-gold-dark whitespace-nowrap">
           {price ? `CHF ${price}` : ""}
         </span>
       </div>
-      {!isLast && <div className="h-px bg-line/50" />}
+      
     </>
   );
 }
@@ -38,7 +34,7 @@ function TastingMenuCard({ menu }) {
   const desc = menu.description ? menu.description[lang] ?? menu.description.en : null;
   return (
     <FadeIn>
-      <div className="border border-line bg-cream/30 p-8 md:p-10">
+      <div className="border-t border-line pt-8 md:pt-10 pb-8 md:pb-10">
         <p className="text-[11px] uppercase tracking-wide-3 text-gold-dark font-semibold mb-2">
           {t.menu.forWholeParty}
         </p>
@@ -158,7 +154,7 @@ const WINE_TABS = [
 
 // ── Per-category visual theme — all use Sweet (amber/honey) style ─────────────
 const SWEET_THEME = {
-  wrapper: "relative bg-[#FBF3E8] px-8 py-7",
+  wrapper: "relative px-8 py-7",
   regionColor: "#8B6914",
   nameCls: "font-serif text-[1.05rem] leading-snug text-charcoal",
   subCls: "text-[11px] mt-0.5 text-[#8B6914]",
@@ -404,7 +400,7 @@ export default function RestaurantPage() {
 
           {/* Chef section */}
           <FadeIn>
-            <div className="border border-line/60 bg-cream/20 p-8 md:p-12 mb-20">
+          <div className="border-t border-line pt-8 md:pt-10 pb-8 md:pb-10 mb-20">
               <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-8 items-center">
                 <div className="flex-shrink-0">
                   <div className="w-28 h-28 md:w-36 md:h-36 rounded-full overflow-hidden border-2 border-gold/30">
