@@ -81,7 +81,7 @@ function Hero() {
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease, delay: 1.9 }}
-          className="mt-12 flex flex-col sm:flex-row gap-4 justify-center"
+          className="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
           <a
             href="/hotel"

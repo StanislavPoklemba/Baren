@@ -13,7 +13,7 @@ function AboutSection() {
   const a = t.about
 
   return (
-    <section id="about" className="relative bg-pearl py-28 md:py-40 overflow-hidden">
+    <section id="about" className="relative bg-pearl py-8 md:py-40 overflow-hidden">
       <div
         className="absolute inset-0 pointer-events-none opacity-30"
         style={{ backgroundImage: 'radial-gradient(ellipse at bottom left, rgba(197,165,114,0.20), transparent 60%)' }}
