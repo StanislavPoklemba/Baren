@@ -7,7 +7,7 @@ import { LanguageProvider } from './context/LanguageContext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/baren">
       <LanguageProvider>
         <App />
       </LanguageProvider>
