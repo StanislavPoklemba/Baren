@@ -84,7 +84,7 @@ function Hero() {
           className="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center"
         >
           <a
-            href="/hotel"
+            href="/baren/hotel"
             className="group relative inline-flex items-center justify-center w-44 py-4 border border-gold text-gold text-[10px] uppercase tracking-wide-4 overflow-hidden transition-colors duration-700"
           >
             <span className="relative z-10 group-hover:text-walnut transition-colors duration-700">
@@ -97,7 +97,7 @@ function Hero() {
           </a>
 
           <a
-            href="/restaurant"
+            href="/baren/restaurant"
             className="group relative inline-flex items-center justify-center w-44 py-4 border border-gold text-gold text-[10px] uppercase tracking-wide-4 overflow-hidden transition-colors duration-700"
           >
             <span className="relative z-10 group-hover:text-walnut transition-colors duration-700">
